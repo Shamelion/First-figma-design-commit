@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'Sofia Pro';
+    src: url('path/to/fonts/sofiapro-regular.woff2') format('woff2'), /* Change the path and filename accordingly */
+         url('path/to/fonts/sofiapro-regular.woff') format('woff'); /* Change the path and filename accordingly */
+    font-weight: normal;
+    font-style: normal;
+  }
+  

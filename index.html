@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./fontStyle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+
+    <script src></script>
+
+    <title>Assignment II</title>
+</head>
+
+<body>
+
+
+    <section>
+        <div class="logo-div">
+            <img class="logo" src="./images/Logo.svg" alt="">
+            <h3>For Individuals</h3>
+            <p class="paragraph">Start benefiting from the wellness experience. For companies looking on increasing
+                productivity, and improving organization wellness.</p>
+        </div>
+        <div class="form-div">
+            <form class="form" action="/" method="post">
+                <div class="name" id="style">
+                    <div>
+                        <label for="first_name"> First Name </label>
+                        <br>
+                        <input type="text" id="first_name">
+                    </div>
+
+                    <div>
+                        <label for="Last_name"> Last Name </label>
+                        <br>
+                        <input type="text" id="Last_name">
+                    </div>
+                </div>
+
+                <div class="options">
+                    <div>
+                        <label for="dropdown">Gender </label>
+                        <br>
+                        <select name="" id="dropdown">
+                            <option value="">Select Option</option>
+                            <option value="">Male</option>
+                            <option value="">Female</option>
+                            <option value="">Other</option>
+                        </select>
+                    </div>
+
+                    <!-- <div>
+                        <label for="">Date of Birth</label>
+                        <br>
+                        <div class="vector">
+                            <img class="vectorDate" src="./images/Vector.svg" alt="">
+                            <input type="" placeholder=" Select here" name="" id="">
+                        </div>
+                    </div> -->
+                    <div class="dob">
+                        <label for="date">Date of birth</label>
+                        <input type="text" placeholder="Date of birth" id="dob"/>
+                        <a href="#"><i class="fa-regular fa-calendar-days"></i></a>
+                      </div>
+
+                </div>
+
+                <div class="units">
+                    <div>
+                        <label for="weight">Weight(KG)</label>
+                        <br>
+                        <input type="number" placeholder=" Enter Weight" id="weight">
+                    </div>
+
+                    <div>
+                        <label for="height">Height(CM)</label>
+                        <br>
+                        <input type="number" placeholder=" Enter Height" id="height">
+                    </div>
+
+                </div>
+
+                <div class="activity">
+                    <label for="activity">Activity Level</label>
+                    <br>
+                    <select name="" id="activity">
+                        <option value="">Select here</option>
+                        <option value="">5%</option>
+                        <option value="">15%</option>
+                        <option value="">25%</option>
+                        <option value="">50%</option>
+                        <option value="">75%</option>
+                        <option value="">100%</option>
+                    </select>
+                </div>
+                <div class="pass">
+                    <label for="password">Password</label>
+                    <br>
+                    <!-- Toggle password visibility icons -->
+                    <!-- <i class="fa fa-eye"></i> -->
+                    <div class="passwordEye">
+                        <img class="eye" src="./images/show.svg" alt="">
+                        <input type="password" id="password">
+                    </div>
+                </div>
+
+                    <button type="submit"> Register </button>
+
+                <p class="form-footer">
+                    By clicking Register, you agree to our <span><a href="#">Terms of Use</a></span> and our <span><a href="#">Privacy Policy</a></span>
+                </p>
+
+            </form>
+        </div>
+    </section>
+</body>
+
+</html>
